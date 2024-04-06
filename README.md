@@ -3,7 +3,7 @@
 ## Overview:
 This script utilizes the Selenium library to scrape data from the CoinMarketCap website, specifically focusing on the trending cryptocurrencies. It fetches information such as rank, name, symbol, price, changes in various timeframes, market cap, volume in the last 24 hours, and circulating supply for each cryptocurrency. The data is then stored in a CSV file with today's date as part of the filename.
 ## Usage:
-1. Ensure you have Python 3.x installed.
+1. Ensure you have Python 3.12 installed.
 2. Install the Selenium library if you haven't already (`pip install selenium`).
 3. Download the appropriate Chrome WebDriver for your Chrome browser version from [Chrome WebDriver Downloads](https://sites.google.com/a/chromium.org/chromedriver/downloads). Make sure to place the chromedriver executable file in your system PATH or specify its location in the script.
 4. Clone or download the script `crypto_scraper.py` from this repository.
